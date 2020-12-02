@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package Vista;
+package com.prueba.one.vista;
 
 import java.awt.Color;
 
