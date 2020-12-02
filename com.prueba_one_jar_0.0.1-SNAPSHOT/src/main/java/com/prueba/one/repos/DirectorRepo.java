@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controlador;
+package com.prueba.one.repos;
 
-import Logica.Serie;
+import com.prueba.one.modelos.Director;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -14,6 +14,6 @@ import org.springframework.stereotype.Repository;
  * @author usuario
  */
 @Repository
-public interface SerieRepo extends JpaRepository < Serie, Long> {
+public interface DirectorRepo extends JpaRepository < Director, Long>{
     
 }
